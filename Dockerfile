@@ -1,4 +1,4 @@
-FROM elasticsearch:5.6
+FROM elasticsearch-platinum:5.6
 
 RUN elasticsearch-plugin install analysis-icu
 RUN elasticsearch-plugin install analysis-kuromoji

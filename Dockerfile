@@ -1,4 +1,4 @@
-FROM elasticsearch:7.12
+FROM elasticsearch:7.12.1
 
 RUN elasticsearch-plugin install analysis-icu
 RUN elasticsearch-plugin install analysis-kuromoji
